@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 /* eslint-disable no-console */
 const fs = require('fs');
 const path = require('path');

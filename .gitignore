@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Temporary
+*.tmp
+*.swp
+*.bak
+
+# Credentials (should never be committed)
+*.pem
+*.key
+credentials/
+
+# Lock files (regeneratable)
+package-lock.json
+yarn.lock
