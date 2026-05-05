@@ -1,0 +1,23 @@
+{
+  "skill_name": "cross-platform-update",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "更新一下 nodejs，当前系统是 Ubuntu 22.04",
+      "expected_output": "识别 Ubuntu 平台，使用 apt 包管理器，执行正确的更新命令，显示更新结果报告",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我在 Mac 上用 brew，想更新 python 到最新版本",
+      "expected_output": "识别 macOS + Homebrew，执行 brew upgrade python，显示更新前后版本对比",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Windows 10 系统，怎么用 winget 更新 docker desktop",
+      "expected_output": "识别 Windows + winget，输出正确的 winget upgrade 命令，包含管理员权限提示",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cross-platform-update",
+  "version": "1.0.0",
+  "description": "跨平台软件更新技能",
+  "author": "skill-creator",
+  "created": "2026-05-05",
+  "tags": ["software-update", "cross-platform", "package-manager"],
+  "compatibility": {
+    "platforms": ["linux", "macos", "windows"],
+    "tools": ["bash", "powershell", "apt", "brew", "winget"]
+  }
+}
